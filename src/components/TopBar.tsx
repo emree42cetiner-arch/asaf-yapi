@@ -4,10 +4,15 @@ const TopBar = () => {
   return (
     <div className="bg-navy-dark py-2 px-4">
       <div className="container-custom flex justify-end">
-        <div className="flex items-center gap-2 text-xs text-slate-300">
+        <a 
+          href="https://wa.me/905428209599" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 text-xs text-slate-300 hover:text-white transition-colors"
+        >
           <Phone className="h-3 w-3" />
-          <span>Kurumsal Çözüm Merkezi: 444 0 999</span>
-        </div>
+          <span>Kurumsal Çözüm Merkezi: 0542 820 95 99</span>
+        </a>
       </div>
     </div>
   );
