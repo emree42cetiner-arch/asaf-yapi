@@ -39,7 +39,7 @@ const HeroSection = () => {
             variants={fadeInUp}
             className="text-4xl md:text-5xl lg:text-7xl font-black text-white leading-tight mb-6"
           >
-            İNŞAAT SEKTÖRÜNDE 20 YILLIK TECRÜBE VE GÜVEN
+            ASAF YAPI İLE KALİTE VE GÜVEN
           </motion.h1>
           
           <motion.p

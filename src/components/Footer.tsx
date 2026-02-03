@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* About */}
           <div>
-            <h3 className="text-xl font-bold mb-6 tracking-tight">KUZEY YAPI</h3>
+            <h3 className="text-xl font-bold mb-6 tracking-tight">ASAF YAPI</h3>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               20 yılı aşkın tecrübemizle inşaat, tadilat ve mekanik tesisat 
               alanlarında profesyonel hizmet sunuyoruz.
@@ -58,21 +58,31 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
-                <span className="text-gray-400 text-sm">
-                  Maslak Mahallesi, AOS 55. Sokak<br />
-                  No: 42, Sarıyer / İstanbul
-                </span>
+                <a 
+                  href="https://maps.google.com/?q=Necip+Fazıl+Kısakürek,+Çağlayan+Sk.+No:5,+34000+Esenyurt/İstanbul"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200 text-sm"
+                >
+                  Necip Fazıl Kısakürek, Çağlayan Sk. No:5,<br />
+                  34000 Esenyurt/İstanbul
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent flex-shrink-0" />
-                <a href="tel:4440999" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">
-                  444 0 999
+                <a 
+                  href="https://wa.me/905428209599" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors duration-200 text-sm"
+                >
+                  0542 820 95 99
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-accent flex-shrink-0" />
-                <a href="mailto:info@kuzeyyapi.com" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">
-                  info@kuzeyyapi.com
+                <a href="mailto:info@asafyapi.com" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">
+                  info@asafyapi.com
                 </a>
               </li>
             </ul>
@@ -82,7 +92,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-white/10 pt-8">
           <p className="text-center text-gray-500 text-sm">
-            © 2026 Kuzey Yapı. Tüm hakları saklıdır.
+            © 2026 Asaf Yapı. Tüm hakları saklıdır.
           </p>
         </div>
       </div>
