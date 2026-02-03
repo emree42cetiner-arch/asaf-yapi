@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { name: "Kurumsal", href: "#kurumsal" },
@@ -34,8 +35,11 @@ const Navigation = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#" className="text-xl md:text-2xl font-black tracking-tighter text-primary">
-            ASAF YAPI
+          <a href="#" className="flex items-center gap-2 md:gap-3">
+            <img src={logo} alt="Asaf Yapı Logo" className="h-10 md:h-12 w-auto" />
+            <span className="text-xl md:text-2xl font-black tracking-tighter text-primary">
+              ASAF YAPI
+            </span>
           </a>
 
           {/* Desktop Menu */}
