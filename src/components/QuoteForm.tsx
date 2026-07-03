@@ -52,7 +52,7 @@ const QuoteForm = () => {
     const text = `Merhaba, teklif almak istiyorum.\n\nAd: ${name}\nTelefon: ${phone}\nHizmet: ${service}${
       message ? `\nMesaj: ${message}` : ""
     }`;
-    const url = `https://wa.me/905428209599?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/905325549292?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank", "noopener,noreferrer");
     toast({ title: "Teşekkürler!", description: "WhatsApp üzerinden yönlendirildiniz." });
   };
@@ -73,13 +73,13 @@ const QuoteForm = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-3">
             <a
-              href="tel:+905428209599"
+              href="tel:+905325549292"
               className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition"
             >
               <Phone className="h-4 w-4" /> Hemen Ara
             </a>
             <a
-              href="https://wa.me/905428209599"
+              href="https://wa.me/905325549292"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20b558] text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition"

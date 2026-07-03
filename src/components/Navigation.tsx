@@ -36,9 +36,9 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 md:gap-3">
-            <img src={logo} alt="Asaf Yapı Logo" className="h-10 md:h-12 w-auto" />
+            <img src={logo} alt="Küçükler Yapı Dekorasyon Logo" className="h-10 md:h-12 w-auto" />
             <span className="text-xl md:text-2xl font-black tracking-tighter text-primary">
-              ASAF YAPI
+              KÜÇÜKLER YAPI DEKORASYON
             </span>
           </a>
 

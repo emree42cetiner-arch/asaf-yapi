@@ -28,8 +28,8 @@ const ServicePage = () => {
     serviceType: service.title,
     provider: {
       "@type": "LocalBusiness",
-      name: "Asaf Yapı",
-      telephone: "+905428209599",
+      name: "Küçükler Yapı Dekorasyon",
+      telephone: "+905325549292",
       areaServed: "İstanbul",
       address: {
         "@type": "PostalAddress",
@@ -100,7 +100,7 @@ const ServicePage = () => {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href="https://wa.me/905428209599"
+                href="https://wa.me/905325549292"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20b558] text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition"
@@ -108,7 +108,7 @@ const ServicePage = () => {
                 <MessageCircle className="h-4 w-4" /> WhatsApp
               </a>
               <a
-                href="tel:+905428209599"
+                href="tel:+905325549292"
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition"
               >
                 <Phone className="h-4 w-4" /> Hemen Ara
@@ -160,7 +160,7 @@ const ServicePage = () => {
         <section className="section-padding">
           <div className="container-custom max-w-4xl">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
-              Neden Asaf Yapı?
+              Neden Küçükler Yapı Dekorasyon?
             </h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {service.benefits.map((b, i) => (
@@ -215,7 +215,7 @@ const ServicePage = () => {
             </h2>
             <div className="flex flex-wrap justify-center gap-3">
               <a
-                href="https://wa.me/905428209599"
+                href="https://wa.me/905325549292"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20b558] text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition"

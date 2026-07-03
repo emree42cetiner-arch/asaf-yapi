@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* About */}
           <div>
-            <h3 className="text-xl font-bold mb-6 tracking-tight">ASAF YAPI</h3>
+            <h3 className="text-xl font-bold mb-6 tracking-tight">KÜÇÜKLER YAPI DEKORASYON</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               Fatih merkezli, İstanbul genelinde 20 yılı aşkın tecrübeyle
               tadilat, dekorasyon ve yapı hizmetleri.
@@ -56,29 +56,29 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                 <a
-                  href="https://maps.google.com/?q=Necip+Fazıl+Kısakürek,+Çağlayan+Sk.+No:5,+34000+Esenyurt/İstanbul"
+                  href="https://maps.google.com/?q=Saray+Ağası+Cd.+no75/A,+34087+Fatih/İstanbul"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors duration-200 text-sm"
                 >
-                  Necip Fazıl Kısakürek, Çağlayan Sk. No:5,
+                  Saray Ağası Cd. no75/A,
                   <br />
-                  34000 Esenyurt/İstanbul
+                  34087 Fatih/İstanbul
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent flex-shrink-0" />
                 <a
-                  href="tel:+905428209599"
+                  href="tel:+905325549292"
                   className="text-gray-400 hover:text-white transition-colors duration-200 text-sm"
                 >
-                  0542 820 95 99
+                  0532 554 92 92
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <MessageCircle className="h-5 w-5 text-accent flex-shrink-0" />
                 <a
-                  href="https://wa.me/905428209599"
+                  href="https://wa.me/905325549292"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors duration-200 text-sm"
@@ -89,10 +89,10 @@ const Footer = () => {
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-accent flex-shrink-0" />
                 <a
-                  href="mailto:info@asafyapi.com"
+                  href="mailto:info@kucukleryapidekorasyon.com.tr"
                   className="text-gray-400 hover:text-white transition-colors duration-200 text-sm"
                 >
-                  info@asafyapi.com
+                  info@kucukleryapidekorasyon.com.tr
                 </a>
               </li>
             </ul>
@@ -102,7 +102,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-white/10 pt-8">
           <p className="text-center text-gray-500 text-sm">
-            © 2026 Asaf Yapı. Tüm hakları saklıdır.
+            © 2026 Küçükler Yapı Dekorasyon. Tüm hakları saklıdır.
           </p>
         </div>
       </div>

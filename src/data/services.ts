@@ -44,12 +44,12 @@ export const detailedServices: ServiceDetail[] = [
     excerpt:
       "Anahtar teslim komple ev yenileme: yıkım, tesisat, boya, dekorasyon dahil A'dan Z'ye tadilat.",
     href: `${BASE}/komple-ev-tadilati`,
-    seoTitle: "Fatih Komple Ev Tadilatı | Anahtar Teslim | Asaf Yapı",
+    seoTitle: "Fatih Komple Ev Tadilatı | Anahtar Teslim | Küçükler Yapı Dekorasyon",
     seoDescription:
       "Fatih ve İstanbul genelinde anahtar teslim komple ev tadilatı. Elektrik, su tesisatı, boya, mutfak ve banyo dahil profesyonel yenileme hizmeti.",
     h1: "Fatih Komple Ev Tadilatı ve Anahtar Teslim Yenileme",
     intro: [
-      "Asaf Yapı olarak Fatih merkezli ekibimizle İstanbul'un tüm ilçelerinde komple ev tadilatı hizmeti sunuyoruz. Eski dairenizi, evinizi veya iş yerinizi baştan sona yeniliyor; elektrik, sıhhi tesisat, alçıpan, boya, mutfak ve banyo dahil tüm işleri tek elden yönetiyoruz.",
+      "Küçükler Yapı Dekorasyon olarak Fatih merkezli ekibimizle İstanbul'un tüm ilçelerinde komple ev tadilatı hizmeti sunuyoruz. Eski dairenizi, evinizi veya iş yerinizi baştan sona yeniliyor; elektrik, sıhhi tesisat, alçıpan, boya, mutfak ve banyo dahil tüm işleri tek elden yönetiyoruz.",
       "20 yılı aşkın tecrübemizle projelerinizi zamanında, bütçenize uygun ve garantili biçimde teslim ediyoruz. Ücretsiz keşif ve şeffaf fiyatlandırma ile sürpriz maliyetlere yer bırakmıyoruz.",
     ],
     process: [
@@ -81,7 +81,7 @@ export const detailedServices: ServiceDetail[] = [
     icon: Bath,
     excerpt: "Seramik, vitrifiye, duş kabin, sıhhi tesisat ve su yalıtımı dahil komple banyo yenileme.",
     href: `${BASE}/banyo-tadilati`,
-    seoTitle: "Fatih Banyo Tadilatı | Komple Banyo Yenileme | Asaf Yapı",
+    seoTitle: "Fatih Banyo Tadilatı | Komple Banyo Yenileme | Küçükler Yapı Dekorasyon",
     seoDescription:
       "Fatih ve çevresinde banyo tadilatı: seramik, vitrifiye, duşakabin, su yalıtımı, sıhhi tesisat. Ücretsiz keşif ve garantili işçilik.",
     h1: "Fatih Banyo Tadilatı ve Komple Banyo Yenileme",
@@ -117,7 +117,7 @@ export const detailedServices: ServiceDetail[] = [
     icon: ChefHat,
     excerpt: "Mutfak dolabı, tezgah, seramik, tesisat ve dekorasyon dahil komple mutfak yenileme.",
     href: `${BASE}/mutfak-tadilati`,
-    seoTitle: "Fatih Mutfak Tadilatı | Komple Mutfak Yenileme | Asaf Yapı",
+    seoTitle: "Fatih Mutfak Tadilatı | Komple Mutfak Yenileme | Küçükler Yapı Dekorasyon",
     seoDescription:
       "Fatih İstanbul'da komple mutfak tadilatı: dolap, tezgah, seramik, su ve elektrik tesisatı. Ücretsiz keşif ve garantili işçilik.",
     h1: "Fatih Mutfak Tadilatı ve Modern Mutfak Yenileme",
@@ -153,7 +153,7 @@ export const detailedServices: ServiceDetail[] = [
     icon: Paintbrush,
     excerpt: "İç mekan boya, badana, dekoratif boya ve macun uygulamaları. Temiz, hızlı, garantili.",
     href: `${BASE}/boya-badana`,
-    seoTitle: "Fatih Boya Badana | İç Mekan Boya Ustası | Asaf Yapı",
+    seoTitle: "Fatih Boya Badana | İç Mekan Boya Ustası | Küçükler Yapı Dekorasyon",
     seoDescription:
       "Fatih İstanbul boya badana hizmeti. Saten, plastik, silikonlu boya ve dekoratif uygulamalar. Temiz iş, hızlı teslim.",
     h1: "Fatih Boya Badana Hizmeti ve İç Mekan Boya Uygulaması",
@@ -189,7 +189,7 @@ export const detailedServices: ServiceDetail[] = [
     icon: Layers,
     excerpt: "Dış cephe mantolama ile ısı yalıtımı, yakıt tasarrufu ve modern görünüm.",
     href: `${BASE}/mantolama`,
-    seoTitle: "Fatih Mantolama | Dış Cephe Isı Yalıtımı | Asaf Yapı",
+    seoTitle: "Fatih Mantolama | Dış Cephe Isı Yalıtımı | Küçükler Yapı Dekorasyon",
     seoDescription:
       "Fatih ve İstanbul genelinde mantolama, dış cephe ısı yalıtımı. EPS, XPS ve taş yünü ile yakıt tasarrufu.",
     h1: "Fatih Mantolama ve Dış Cephe Isı Yalıtımı",
@@ -225,7 +225,7 @@ export const detailedServices: ServiceDetail[] = [
     icon: Droplets,
     excerpt: "Teras, balkon, banyo ve temel su yalıtımı. Sızıntı ve nem problemine kesin çözüm.",
     href: `${BASE}/su-yalitimi`,
-    seoTitle: "Fatih Su Yalıtımı | Teras, Banyo, Temel Yalıtım | Asaf Yapı",
+    seoTitle: "Fatih Su Yalıtımı | Teras, Banyo, Temel Yalıtım | Küçükler Yapı Dekorasyon",
     seoDescription:
       "Fatih ve İstanbul su yalıtımı hizmetleri. Teras, balkon, banyo, temel ve bodrum yalıtımı. Sızıntı ve rutubete kesin çözüm.",
     h1: "Fatih Su Yalıtımı ve Sızıntı Çözümleri",
@@ -261,7 +261,7 @@ export const detailedServices: ServiceDetail[] = [
     icon: Warehouse,
     excerpt: "Kiremit aktarma, çatı yalıtımı, oluk ve akıntı tamiri. Deneyimli çatı ustaları.",
     href: `${BASE}/cati-tamiri`,
-    seoTitle: "Fatih Çatı Tamiri | Kiremit Aktarma ve Çatı Yalıtımı | Asaf Yapı",
+    seoTitle: "Fatih Çatı Tamiri | Kiremit Aktarma ve Çatı Yalıtımı | Küçükler Yapı Dekorasyon",
     seoDescription:
       "Fatih İstanbul çatı tamiri ve kiremit aktarma. Çatı akıntısı, oluk tamiri, çatı yalıtımı. Ücretsiz keşif.",
     h1: "Fatih Çatı Tamiri, Kiremit Aktarma ve Çatı Yalıtımı",

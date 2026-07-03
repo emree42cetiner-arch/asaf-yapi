@@ -19,10 +19,10 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Fatih Merkezli İstanbul Yapı Dekorasyon ve Tadilat | Asaf Yapı</title>
+        <title>Fatih Merkezli İstanbul Yapı Dekorasyon ve Tadilat | Küçükler Yapı Dekorasyon</title>
         <meta
           name="description"
-          content="Fatih merkezli, İstanbul geneli hizmet veren Asaf Yapı; komple ev tadilatı, banyo, mutfak, boya, mantolama ve su yalıtımı işlerinde 20 yıllık tecrübe."
+          content="Fatih merkezli, İstanbul geneli hizmet veren Küçükler Yapı Dekorasyon; komple ev tadilatı, banyo, mutfak, boya, mantolama ve su yalıtımı işlerinde 20 yıllık tecrübe."
         />
         <link rel="canonical" href="https://asaf-yapi.lovable.app/" />
         <meta property="og:url" content="https://asaf-yapi.lovable.app/" />

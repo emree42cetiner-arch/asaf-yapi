@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Asaf Yapı — Fatih İstanbul tadilat ve dekorasyon"
+          alt="Küçükler Yapı Dekorasyon — Fatih İstanbul tadilat ve dekorasyon"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/65" />
@@ -59,7 +59,7 @@ const HeroSection = () => {
             className="flex flex-col sm:flex-row gap-3 justify-center items-center"
           >
             <a
-              href="https://wa.me/905428209599?text=Merhaba,%20teklif%20almak%20istiyorum."
+              href="https://wa.me/905325549292?text=Merhaba,%20teklif%20almak%20istiyorum."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20b558] text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition w-full sm:w-auto justify-center"
@@ -67,7 +67,7 @@ const HeroSection = () => {
               <MessageCircle className="h-4 w-4" /> WhatsApp
             </a>
             <a
-              href="tel:+905428209599"
+              href="tel:+905325549292"
               className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition w-full sm:w-auto justify-center"
             >
               <Phone className="h-4 w-4" /> Hemen Ara

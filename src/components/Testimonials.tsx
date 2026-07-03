@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: "Mehmet K.",
     location: "Fatih, İstanbul",
-    text: "Evimizin komple tadilatını Asaf Yapı ekibine yaptırdık. Söz verdikleri tarihte, temiz ve kaliteli işçilikle teslim ettiler. Kesinlikle tavsiye ederim.",
+    text: "Evimizin komple tadilatını Küçükler Yapı Dekorasyon ekibine yaptırdık. Söz verdikleri tarihte, temiz ve kaliteli işçilikle teslim ettiler. Kesinlikle tavsiye ederim.",
   },
   {
     name: "Ayşe D.",
