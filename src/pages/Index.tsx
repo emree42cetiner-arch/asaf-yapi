@@ -1,27 +1,49 @@
+import { Helmet } from "react-helmet-async";
 import TopBar from "@/components/TopBar";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
-import AuthorityStrip from "@/components/AuthorityStrip";
+import ServicesGrid from "@/components/ServicesGrid";
 import FeatureSection from "@/components/FeatureSection";
 import ValueProposition from "@/components/ValueProposition";
+import BeforeAfter from "@/components/BeforeAfter";
+import ProjectGallery from "@/components/ProjectGallery";
+import Testimonials from "@/components/Testimonials";
+import FAQ from "@/components/FAQ";
+import QuoteForm from "@/components/QuoteForm";
 import BlogSection from "@/components/BlogSection";
 import PreFooterCTA from "@/components/PreFooterCTA";
 import Footer from "@/components/Footer";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Helmet>
+        <title>Fatih Merkezli İstanbul Yapı Dekorasyon ve Tadilat | Asaf Yapı</title>
+        <meta
+          name="description"
+          content="Fatih merkezli, İstanbul geneli hizmet veren Asaf Yapı; komple ev tadilatı, banyo, mutfak, boya, mantolama ve su yalıtımı işlerinde 20 yıllık tecrübe."
+        />
+        <link rel="canonical" href="https://asaf-yapi.lovable.app/" />
+        <meta property="og:url" content="https://asaf-yapi.lovable.app/" />
+      </Helmet>
       <TopBar />
       <Navigation />
       <main>
         <HeroSection />
-        <AuthorityStrip />
+        <ServicesGrid />
         <FeatureSection />
         <ValueProposition />
+        <BeforeAfter />
+        <ProjectGallery />
+        <Testimonials />
+        <FAQ />
+        <QuoteForm />
         <BlogSection />
         <PreFooterCTA />
       </main>
       <Footer />
+      <WhatsAppFloat />
     </div>
   );
 };

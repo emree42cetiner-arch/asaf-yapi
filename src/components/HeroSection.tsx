@@ -1,26 +1,27 @@
 import { motion, Variants } from "framer-motion";
+import { MessageCircle, Phone, FileText } from "lucide-react";
 import heroImage from "@/assets/hero-construction.jpg";
 
 const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 30 },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     y: 0,
-    transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }
-  }
+    transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1] },
+  },
 };
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-[800px] h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[720px] h-[92vh] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Kuzey Yapı inşaat projesi"
+          alt="Asaf Yapı — Fatih İstanbul tadilat ve dekorasyon"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black/60" />
+        <div className="absolute inset-0 bg-black/65" />
       </div>
 
       {/* Content */}
@@ -28,51 +29,58 @@ const HeroSection = () => {
         <motion.div
           initial="hidden"
           animate="visible"
-          variants={{
-            visible: {
-              transition: { staggerChildren: 0.2 }
-            }
-          }}
+          variants={{ visible: { transition: { staggerChildren: 0.15 } } }}
           className="max-w-4xl mx-auto"
         >
+          <motion.span
+            variants={fadeInUp}
+            className="inline-block text-xs md:text-sm font-semibold uppercase tracking-[0.25em] text-accent mb-5"
+          >
+            Fatih Merkezli · 20+ Yıl Tecrübe
+          </motion.span>
+
           <motion.h1
             variants={fadeInUp}
-            className="text-4xl md:text-5xl lg:text-7xl font-black text-white leading-tight mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-6"
           >
-            ASAF YAPI İLE KALİTE VE GÜVEN
+            Fatih Merkezli İstanbul Yapı Dekorasyon ve Tadilat Hizmetleri
           </motion.h1>
-          
+
           <motion.p
             variants={fadeInUp}
-            className="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto mb-10"
+            className="text-base md:text-lg text-gray-200 max-w-2xl mx-auto mb-10"
           >
-            Mekanik tesisattan ince dekorasyona, 20 yıllık tecrübemizle 
-            hayalinizdeki yaşam alanlarını inşa ediyoruz.
+            Komple ev tadilatı, banyo, mutfak, boya, mantolama ve su yalıtımı —
+            Fatih ve İstanbul genelinde anahtar teslim, garantili hizmet.
           </motion.p>
-          
-          <motion.div variants={fadeInUp}>
-            <button className="btn-outline text-white border-white/20 hover:border-white/40 hover:bg-white/10">
-              Projelerimizi İnceleyin
-            </button>
+
+          <motion.div
+            variants={fadeInUp}
+            className="flex flex-col sm:flex-row gap-3 justify-center items-center"
+          >
+            <a
+              href="https://wa.me/905428209599?text=Merhaba,%20teklif%20almak%20istiyorum."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20b558] text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition w-full sm:w-auto justify-center"
+            >
+              <MessageCircle className="h-4 w-4" /> WhatsApp
+            </a>
+            <a
+              href="tel:+905428209599"
+              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition w-full sm:w-auto justify-center"
+            >
+              <Phone className="h-4 w-4" /> Hemen Ara
+            </a>
+            <a
+              href="#teklif"
+              className="inline-flex items-center gap-2 bg-accent hover:bg-accent/90 text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition w-full sm:w-auto justify-center"
+            >
+              <FileText className="h-4 w-4" /> Teklif Al
+            </a>
           </motion.div>
         </motion.div>
       </div>
-
-      {/* Scroll Indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 0.8 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-      >
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
-          className="w-6 h-10 border-2 border-white/40 flex justify-center pt-2"
-        >
-          <div className="w-1 h-2 bg-white/60" />
-        </motion.div>
-      </motion.div>
     </section>
   );
 };
