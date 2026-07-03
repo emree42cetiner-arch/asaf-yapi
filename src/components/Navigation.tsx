@@ -88,7 +88,7 @@ const Navigation = () => {
                   {item.name}
                 </a>
               ))}
-              <button className="btn-accent mt-2">Ücretsiz Keşif İste</button>
+              <a href="/#teklif" className="btn-accent mt-2 text-center">Teklif Al</a>
             </div>
           </motion.div>
         )}
