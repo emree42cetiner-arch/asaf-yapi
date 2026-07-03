@@ -4,11 +4,11 @@ import { Menu, X } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const navItems = [
-  { name: "Kurumsal", href: "#kurumsal" },
-  { name: "Hizmetlerimiz", href: "#hizmetler" },
-  { name: "Projeler", href: "#projeler" },
-  { name: "Blog", href: "#blog" },
-  { name: "İletişim", href: "#iletisim" },
+  { name: "Ana Sayfa", href: "/" },
+  { name: "Hizmetlerimiz", href: "/#hizmetlerimiz" },
+  { name: "Projeler", href: "/#projeler" },
+  { name: "SSS", href: "/#sss" },
+  { name: "İletişim", href: "/#iletisim" },
 ];
 
 const Navigation = () => {
@@ -57,7 +57,7 @@ const Navigation = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button className="btn-accent">Ücretsiz Keşif İste</button>
+            <a href="/#teklif" className="btn-accent">Teklif Al</a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -88,7 +88,7 @@ const Navigation = () => {
                   {item.name}
                 </a>
               ))}
-              <button className="btn-accent mt-2">Ücretsiz Keşif İste</button>
+              <a href="/#teklif" className="btn-accent mt-2 text-center">Teklif Al</a>
             </div>
           </motion.div>
         )}

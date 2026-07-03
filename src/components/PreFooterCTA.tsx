@@ -20,9 +20,9 @@ const PreFooterCTA = () => {
             Projenizin detaylarını paylaşın, uzman ekibimiz size ücretsiz 
             keşif ve maliyet analizi sunsun.
           </p>
-          <button className="btn-accent px-10 py-5 text-lg">
+          <a href="/#teklif" className="btn-accent inline-block px-10 py-5 text-lg">
             Ücretsiz Keşif Formu
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>
