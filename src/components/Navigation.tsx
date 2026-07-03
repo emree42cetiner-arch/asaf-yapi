@@ -57,7 +57,7 @@ const Navigation = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button className="btn-accent">Ücretsiz Keşif İste</button>
+            <a href="/#teklif" className="btn-accent">Teklif Al</a>
           </div>
 
           {/* Mobile Menu Button */}
