@@ -74,7 +74,7 @@ const BlogSection = () => {
             <motion.article
               key={index}
               variants={itemVariants}
-              className="group bg-background shadow-lg overflow-hidden border-b-4 border-transparent hover:border-accent transition-all duration-300"
+              className="group bg-background rounded-lg shadow-sm hover:shadow-xl overflow-hidden border border-border hover:border-accent/40 transition-all duration-300"
             >
               <div className="overflow-hidden">
                 <img

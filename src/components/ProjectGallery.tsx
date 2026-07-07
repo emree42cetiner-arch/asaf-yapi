@@ -29,7 +29,7 @@ const ProjectGallery = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
           {images.map((img, i) => (
-            <div key={i} className="overflow-hidden group">
+            <div key={i} className="overflow-hidden group rounded-lg">
               <img
                 src={img.src}
                 alt={img.alt}
