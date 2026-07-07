@@ -62,19 +62,29 @@ const QuoteForm = () => {
       <div className="container-custom grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         <div className="text-white">
           <span className="text-sm font-semibold uppercase tracking-widest text-accent">
-            Teklif Al
+            Ücretsiz Keşif Formu
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-3 mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-3 mb-6 leading-tight">
             Ücretsiz Keşif ve Fiyat Teklifi Alın
           </h2>
           <p className="text-white/70 leading-relaxed mb-8">
-            Formu doldurun, WhatsApp üzerinden hızlıca dönüş yapalım.
-            Ya da hemen arayın; Fatih merkezli ekibimiz sizi dinlesin.
+            Bilgilerinizi bırakın, ekibimiz aynı gün içinde sizinle iletişime geçsin.
+            Yerinde keşif sonrası net, yazılı ve şeffaf teklifimizi sunalım.
           </p>
+
+          <ul className="grid grid-cols-2 gap-3 mb-8">
+            {["Yerinde keşif", "Net fiyatlandırma", "Garantili uygulama", "Hızlı geri dönüş"].map((t) => (
+              <li key={t} className="flex items-center gap-2 text-white/80 text-sm">
+                <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+                {t}
+              </li>
+            ))}
+          </ul>
+
           <div className="flex flex-col sm:flex-row gap-3">
             <a
               href="tel:+905325549292"
-              className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition"
+              className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm rounded-md transition"
             >
               <Phone className="h-4 w-4" /> Hemen Ara
             </a>
@@ -82,14 +92,14 @@ const QuoteForm = () => {
               href="https://wa.me/905325549292"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20b558] text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition"
+              className="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20b558] text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm rounded-md transition"
             >
               <MessageCircle className="h-4 w-4" /> WhatsApp
             </a>
           </div>
         </div>
 
-        <form onSubmit={submit} className="bg-white p-6 md:p-8 space-y-4">
+        <form onSubmit={submit} className="bg-white p-6 md:p-8 space-y-4 rounded-lg shadow-2xl">
           <div>
             <label className="block text-sm font-semibold text-foreground mb-1" htmlFor="qf-name">
               Adınız Soyadınız
@@ -151,9 +161,9 @@ const QuoteForm = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-accent hover:bg-accent/90 text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition"
+            className="w-full bg-accent hover:bg-accent/90 text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm rounded-md shadow-md shadow-accent/20 transition"
           >
-            Teklif İste
+            Ücretsiz Keşif Talep Et
           </button>
         </form>
       </div>
