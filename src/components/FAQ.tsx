@@ -8,28 +8,28 @@ import {
 
 export const homepageFaq = [
   {
-    q: "Fatih dışında hangi ilçelere hizmet veriyorsunuz?",
-    a: "Fatih merkezli olarak Eminönü, Balat, Fındıkzade, Aksaray, Beyazıt, Laleli, Zeytinburnu, Eyüpsultan, Beyoğlu, Bakırköy, Bahçelievler, Başakşehir, Esenler dahil İstanbul'un tüm ilçelerinde hizmet veriyoruz.",
+    q: "Tadilat fiyatı nasıl belirlenir?",
+    a: "Tadilat fiyatı; işin metrekaresi, kullanılacak malzeme kalitesi, iş kapsamı (yıkım, tesisat, boya, mutfak, banyo vb.) ve teslim süresine göre belirlenir. Ücretsiz keşif sonrasında; işçilik, malzeme ve süre kalemlerini ayrı ayrı içeren yazılı ve şeffaf bir teklif sunuyoruz. Sürpriz maliyet çıkarmıyoruz.",
   },
   {
-    q: "Keşif ve teklif ücretli mi?",
-    a: "Hayır. Adresinize gelip ölçüm alıyor ve size ücretsiz, yazılı bir fiyat teklifi sunuyoruz.",
+    q: "Ücretsiz keşif yapıyor musunuz?",
+    a: "Evet. Fatih ve İstanbul geneli tüm projelerde adresinize gelip ölçü alıyor, ihtiyacınızı dinliyor ve aynı gün ya da bir iş günü içinde yazılı fiyat teklifimizi sunuyoruz. Keşif ve teklif tamamen ücretsizdir.",
   },
   {
-    q: "Tadilat işleri için garanti veriyor musunuz?",
-    a: "Evet. Tamamlanan tüm işler için yazılı işçilik garantisi veriyoruz.",
+    q: "İstanbul'un hangi ilçelerine hizmet veriyorsunuz?",
+    a: "Fatih merkezli çalışıyoruz; Eminönü, Balat, Fındıkzade, Aksaray, Beyazıt, Laleli, Zeytinburnu, Eyüpsultan, Beyoğlu, Şişli, Beşiktaş, Bakırköy, Bahçelievler, Başakşehir, Esenler ve İstanbul genelinde tadilat, dekorasyon ve yapı hizmetleri sunuyoruz.",
   },
   {
-    q: "Malzemeleri siz mi temin ediyorsunuz?",
-    a: "Talebe göre hem yalnızca işçilik hem de anahtar teslim (malzeme dahil) çalışma modelimiz var.",
+    q: "Tadilat süresi neye göre değişir?",
+    a: "Süre; dairenin metrekaresi, yıkım miktarı, tesisat yenileme kapsamı, seçilen malzemelerin tedarik süresi ve iş yoğunluğuna göre değişir. Ortalama olarak 2+1 bir daire komple tadilat 3-6 hafta, banyo tadilatı 5-10 iş günü, mutfak tadilatı 7-14 iş günü içinde teslim edilir. Sözleşmede net teslim tarihi belirtilir.",
   },
   {
-    q: "Ödeme nasıl yapılıyor?",
-    a: "İşin başında avans, ara ödemeler ve teslimde bakiye şeklinde sözleşmede belirtilen plana göre ilerliyoruz.",
+    q: "Malzeme temini size mi ait?",
+    a: "Talebinize göre iki modelimiz var: yalnızca işçilik verdiğimiz sözleşme veya anahtar teslim (malzeme dahil) çalışma. Anahtar teslim modelde seramik, boya, vitrifiye, dolap gibi tüm malzemeleri sizin adınıza kaliteli markalardan tedarik ediyoruz.",
   },
   {
-    q: "Tadilat sırasında evde kalabilir miyim?",
-    a: "Küçük çaplı işlerde evet, komple tadilatlarda toz ve gürültü sebebiyle geçici olarak boşaltılması önerilir.",
+    q: "İşçilik garantisi veriyor musunuz?",
+    a: "Evet. Tamamlanan her iş için yazılı işçilik garantisi veriyoruz. Su yalıtımı, mantolama ve tesisat gibi kritik işlerde garanti süresi 2 yıla kadar uzayabilir. Teslimden sonra da destek hizmetimiz devam eder.",
   },
 ];
 

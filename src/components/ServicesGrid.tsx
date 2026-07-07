@@ -43,10 +43,10 @@ const ServicesGrid = () => {
               <motion.div key={service.slug} variants={item}>
                 <Link
                   to={service.href}
-                  className="group block h-full bg-card border border-border p-6 hover:border-accent transition-colors duration-300"
+                  className="group block h-full bg-card border border-border rounded-lg p-6 hover:border-accent hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
                 >
-                  <div className="w-12 h-12 flex items-center justify-center bg-primary/5 group-hover:bg-accent transition-colors duration-300 mb-4">
-                    <Icon className="h-6 w-6 text-primary group-hover:text-white transition-colors" />
+                  <div className="w-12 h-12 flex items-center justify-center bg-accent/10 group-hover:bg-accent rounded-md transition-colors duration-300 mb-5">
+                    <Icon className="h-6 w-6 text-accent group-hover:text-white transition-colors" />
                   </div>
                   <h3 className="text-lg font-bold text-foreground mb-2 group-hover:text-accent transition-colors">
                     {service.shortTitle}
@@ -55,7 +55,7 @@ const ServicesGrid = () => {
                     {service.excerpt}
                   </p>
                   <span className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-accent">
-                    Detay
+                    Hizmeti İncele
                     <ArrowRight className="h-3 w-3 group-hover:translate-x-1 transition-transform" />
                   </span>
                 </Link>

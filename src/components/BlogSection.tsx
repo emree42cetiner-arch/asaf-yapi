@@ -7,21 +7,21 @@ import blogSustainable from "@/assets/blog-sustainable.jpg";
 const blogPosts = [
   {
     image: blogBuilding,
-    title: "Modern Yapılarda Enerji Verimliliği",
-    excerpt: "Yeni nesil binalarda enerji tasarrufu sağlayan sistemler ve uygulamalar hakkında bilmeniz gerekenler.",
-    date: "15 Aralık 2025"
+    title: "İstanbul'da Komple Ev Tadilatı Ne Kadar Sürer?",
+    excerpt: "Daire büyüklüğü, yıkım miktarı ve malzeme seçimlerinin tadilat süresine etkisi ve gerçekçi bir planlama rehberi.",
+    date: "12 Ocak 2026"
   },
   {
     image: blogSafety,
-    title: "İnşaat Sahalarında İş Güvenliği",
-    excerpt: "Şantiyede güvenliğinizi sağlamak için uyulması gereken temel kurallar ve standartlar.",
-    date: "10 Aralık 2025"
+    title: "Fatih'te Banyo Tadilatı Yaptırırken Nelere Dikkat Edilmeli?",
+    excerpt: "Su yalıtımı, tesisat yenileme, seramik ve vitrifiye seçiminde profesyonel bir sürecin olmazsa olmazları.",
+    date: "5 Ocak 2026"
   },
   {
     image: blogSustainable,
-    title: "Sürdürülebilir İnşaat Trendleri",
-    excerpt: "Çevre dostu malzemeler ve yeşil bina sertifikasyonları hakkında güncel gelişmeler.",
-    date: "5 Aralık 2025"
+    title: "Anahtar Teslim Tadilatta Doğru Firma Nasıl Seçilir?",
+    excerpt: "Sözleşme, garanti, referanslar ve şeffaf fiyatlandırma — güvenilir bir yapı dekorasyon firmasında aramanız gerekenler.",
+    date: "28 Aralık 2025"
   }
 ];
 
@@ -74,7 +74,7 @@ const BlogSection = () => {
             <motion.article
               key={index}
               variants={itemVariants}
-              className="group bg-background shadow-lg overflow-hidden border-b-4 border-transparent hover:border-accent transition-all duration-300"
+              className="group bg-background rounded-lg shadow-sm hover:shadow-xl overflow-hidden border border-border hover:border-accent/40 transition-all duration-300"
             >
               <div className="overflow-hidden">
                 <img

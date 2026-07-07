@@ -33,7 +33,7 @@ const Testimonials = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {testimonials.map((t, i) => (
-            <article key={i} className="bg-background border border-border p-6 md:p-8 relative">
+            <article key={i} className="bg-background border border-border rounded-lg p-6 md:p-8 relative shadow-sm hover:shadow-md transition-shadow">
               <Quote className="absolute top-4 right-4 h-8 w-8 text-accent/20" />
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, j) => (

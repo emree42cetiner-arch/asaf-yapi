@@ -6,45 +6,46 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 218 19% 16%;
+    --background: 36 22% 97%;
+    --foreground: 218 24% 14%;
 
     --card: 0 0% 100%;
-    --card-foreground: 218 19% 16%;
+    --card-foreground: 218 24% 14%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 218 19% 16%;
+    --popover-foreground: 218 24% 14%;
 
-    --primary: 209 52% 22%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 215 40% 18%;
+    --primary-foreground: 36 22% 97%;
 
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 218 19% 16%;
+    --secondary: 34 20% 94%;
+    --secondary-foreground: 218 24% 14%;
 
-    --accent: 14 66% 52%;
+    --accent: 18 55% 48%;
     --accent-foreground: 0 0% 100%;
 
-    --muted: 0 0% 96%;
-    --muted-foreground: 218 10% 40%;
+    --muted: 34 18% 93%;
+    --muted-foreground: 218 10% 42%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 209 52% 22%;
+    --border: 30 15% 88%;
+    --input: 30 15% 88%;
+    --ring: 215 40% 18%;
 
-    --radius: 0rem;
+    --radius: 0.375rem;
 
     /* Custom design tokens */
-    --navy: 209 52% 22%;
-    --navy-dark: 222 47% 11%;
-    --orange: 14 66% 52%;
-    --orange-dark: 14 66% 42%;
-    --concrete: 0 0% 96%;
-    --anthracite: 218 19% 16%;
-    --slate-900: 222 47% 11%;
+    --navy: 215 40% 18%;
+    --navy-dark: 218 38% 12%;
+    --orange: 18 55% 48%;
+    --orange-dark: 18 55% 40%;
+    --concrete: 34 20% 94%;
+    --anthracite: 218 24% 14%;
+    --slate-900: 218 38% 12%;
   }
+
 
   .dark {
     --background: 222 47% 11%;
@@ -86,15 +87,15 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-primary text-primary-foreground px-8 py-4 font-semibold uppercase tracking-wide transition-all duration-300 hover:shadow-2xl;
+    @apply bg-primary text-primary-foreground px-8 py-4 font-semibold uppercase tracking-wide text-sm rounded-md transition-all duration-300 hover:shadow-lg hover:bg-primary/95;
   }
 
   .btn-accent {
-    @apply bg-accent text-accent-foreground px-6 py-3 font-semibold uppercase tracking-wide transition-all duration-300 hover:bg-accent/90;
+    @apply bg-accent text-accent-foreground px-6 py-3 font-semibold uppercase tracking-wide text-sm rounded-md transition-all duration-300 hover:bg-accent/90 hover:shadow-md;
   }
 
   .btn-outline {
-    @apply border-2 border-primary/20 bg-primary text-primary-foreground px-8 py-4 font-semibold uppercase tracking-wide transition-all duration-300 hover:border-primary/40 hover:shadow-2xl;
+    @apply border border-primary/20 bg-transparent text-primary px-8 py-4 font-semibold uppercase tracking-wide text-sm rounded-md transition-all duration-300 hover:border-primary/50 hover:bg-primary/5;
   }
 
   .section-padding {
@@ -106,9 +107,10 @@
   }
 
   .card-sharp {
-    @apply bg-card shadow-lg transition-all duration-300 hover:shadow-2xl border border-border;
+    @apply bg-card rounded-md shadow-sm transition-all duration-300 hover:shadow-lg border border-border;
   }
 }
+
 
 @layer utilities {
   .text-gradient {
