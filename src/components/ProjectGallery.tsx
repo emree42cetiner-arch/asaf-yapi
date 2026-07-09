@@ -16,7 +16,7 @@ const images = [
 
 const ProjectGallery = () => {
   return (
-    <section className="section-padding bg-background">
+    <section id="projeler" className="section-padding bg-background">
       <div className="container-custom">
         <div className="text-center mb-12">
           <span className="text-sm font-semibold uppercase tracking-widest text-accent">
