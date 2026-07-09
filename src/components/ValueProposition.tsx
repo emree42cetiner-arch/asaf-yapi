@@ -1,5 +1,5 @@
 import { motion, Variants, useScroll, useTransform } from "framer-motion";
-import { Clock, Award, ShieldCheck, Building2, Users, Hammer } from "lucide-react";
+import { Award, Building2, Users, Hammer } from "lucide-react";
 import { useRef, useEffect, useState } from "react";
 
 // Counter animation hook
