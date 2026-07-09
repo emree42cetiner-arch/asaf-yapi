@@ -57,24 +57,6 @@ const stats = [
   },
 ];
 
-const values = [
-  {
-    icon: Clock,
-    title: "Zamanında Teslim",
-    description: "Taahhüt ettiğimiz sürede, eksiksiz teslimat garantisi sunuyoruz.",
-  },
-  {
-    icon: Award,
-    title: "20 Yıllık Tecrübe",
-    description: "Sektörün köklü firmalarından biri olarak güvenilir hizmet.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Garantili İşçilik",
-    description: "Tüm işlerimizi yazılı garanti ile teslim ediyoruz.",
-  },
-];
-
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
