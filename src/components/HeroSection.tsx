@@ -69,7 +69,7 @@ const HeroSection = () => {
             className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-12"
           >
             <a
-              href="#teklif"
+              href="#iletisim"
               className="inline-flex items-center gap-2 bg-accent hover:bg-accent/90 text-white px-7 py-4 font-semibold uppercase tracking-wide text-sm rounded-md shadow-lg shadow-accent/20 transition w-full sm:w-auto justify-center"
             >
               <FileText className="h-4 w-4" /> Ücretsiz Keşif Talep Et

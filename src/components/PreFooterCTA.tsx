@@ -20,7 +20,7 @@ const PreFooterCTA = () => {
             Fatih merkezli ekibimiz adresinize gelsin, ölçü alsın ve size şeffaf,
             yazılı bir fiyat teklifi sunsun. Keşif ve teklif tamamen ücretsizdir.
           </p>
-          <a href="/#teklif" className="btn-accent inline-block px-10 py-5 text-base">
+          <a href="/#iletisim" className="btn-accent inline-block px-10 py-5 text-base">
             Ücretsiz Keşif Talep Et
           </a>
         </motion.div>

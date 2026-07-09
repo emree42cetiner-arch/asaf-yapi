@@ -57,7 +57,7 @@ const Navigation = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <a href="/#teklif" className="btn-accent">Teklif Al</a>
+            <a href="/#iletisim" className="btn-accent">Teklif Al</a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -88,7 +88,7 @@ const Navigation = () => {
                   {item.name}
                 </a>
               ))}
-              <a href="/#teklif" className="btn-accent mt-2 text-center">Teklif Al</a>
+              <a href="/#iletisim" className="btn-accent mt-2 text-center">Teklif Al</a>
             </div>
           </motion.div>
         )}
