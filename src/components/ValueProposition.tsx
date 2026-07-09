@@ -175,7 +175,7 @@ const ValueProposition = () => {
                 <span className="text-accent">Güven</span>
                 <motion.span
                   variants={lineVariants}
-                  className="absolute -bottom-2 left-0 w-full h-1 bg-accent origin-left"
+                  className="absolute bottom-1 left-0 w-full h-1 bg-accent origin-left"
                 />
               </span>
               {" "}ve Kalite.
