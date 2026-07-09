@@ -34,8 +34,8 @@ const Index = () => {
         <ValueProposition />
         <ProjectGallery />
         <Testimonials />
-        <FAQ />
         <BlogSection />
+        <FAQ />
         <PreFooterCTA />
       </main>
       <Footer />
