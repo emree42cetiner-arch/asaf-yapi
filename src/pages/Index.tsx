@@ -5,11 +5,9 @@ import HeroSection from "@/components/HeroSection";
 import ServicesGrid from "@/components/ServicesGrid";
 import FeatureSection from "@/components/FeatureSection";
 import ValueProposition from "@/components/ValueProposition";
-import BeforeAfter from "@/components/BeforeAfter";
 import ProjectGallery from "@/components/ProjectGallery";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
-import QuoteForm from "@/components/QuoteForm";
 import BlogSection from "@/components/BlogSection";
 import PreFooterCTA from "@/components/PreFooterCTA";
 import Footer from "@/components/Footer";
@@ -34,11 +32,9 @@ const Index = () => {
         <ServicesGrid />
         <FeatureSection />
         <ValueProposition />
-        <BeforeAfter />
         <ProjectGallery />
         <Testimonials />
         <FAQ />
-        <QuoteForm />
         <BlogSection />
         <PreFooterCTA />
       </main>
