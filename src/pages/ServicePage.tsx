@@ -114,7 +114,7 @@ const ServicePage = () => {
                 <Phone className="h-4 w-4" /> Hemen Ara
               </a>
               <Link
-                to="/#teklif"
+                to="/#iletisim"
                 className="inline-flex items-center gap-2 bg-accent hover:bg-accent/90 text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition"
               >
                 Teklif Al
@@ -223,7 +223,7 @@ const ServicePage = () => {
                 <MessageCircle className="h-4 w-4" /> WhatsApp
               </a>
               <Link
-                to="/#teklif"
+                to="/#iletisim"
                 className="inline-flex items-center gap-2 bg-accent hover:bg-accent/90 text-white px-6 py-4 font-semibold uppercase tracking-wide text-sm transition"
               >
                 Teklif Formu
