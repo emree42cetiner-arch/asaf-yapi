@@ -203,65 +203,17 @@ const ValueProposition = () => {
             ))}
           </motion.div>
 
-          {/* Decorative Line */}
-          <motion.div
-            initial={{ scaleX: 0, opacity: 0 }}
-            whileInView={{ scaleX: 1, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 1.5, ease: [0.25, 0.1, 0.25, 1], delay: 0.5 }}
-            className="mt-16 md:mt-20 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent"
-          />
-        </div>
-      </div>
-
-      {/* Value Cards Section */}
-      <div className="bg-background section-padding">
-        <div className="container-custom">
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={containerVariants}
-            className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8"
-          >
-            {values.map((value, index) => (
-              <motion.div
-                key={index}
-                variants={itemVariants}
-                className="group relative bg-card p-8 md:p-10 border border-border hover:border-accent/50 transition-all duration-500"
-              >
-                {/* Hover accent line */}
-                <div className="absolute top-0 left-0 w-0 h-1 bg-accent group-hover:w-full transition-all duration-500" />
-                
-                {/* Icon */}
-                <div className="relative mb-6">
-                  <div className="inline-flex items-center justify-center w-14 h-14 bg-accent/10 group-hover:bg-accent transition-colors duration-300">
-                    <value.icon className="h-7 w-7 text-accent group-hover:text-white transition-colors duration-300" />
-                  </div>
-                </div>
-
-                {/* Content */}
-                <h3 className="text-xl md:text-2xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-300">
-                  {value.title}
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  {value.description}
-                </p>
-
-                {/* Arrow indicator */}
-                <div className="mt-6 flex items-center text-accent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span className="text-sm font-semibold uppercase tracking-wide">Detaylı Bilgi</span>
-                  <svg className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </div>
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-      </div>
-    </section>
-  );
+      {/* Decorative Line */}
+      <motion.div
+        initial={{ scaleX: 0, opacity: 0 }}
+        whileInView={{ scaleX: 1, opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1.5, ease: [0.25, 0.1, 0.25, 1], delay: 0.5 }}
+        className="mt-16 md:mt-20 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent"
+      />
+    </div>
+  </section>
+);
 };
 
 export default ValueProposition;
