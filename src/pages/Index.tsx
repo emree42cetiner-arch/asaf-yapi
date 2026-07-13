@@ -22,8 +22,8 @@ const Index = () => {
           name="description"
           content="Fatih merkezli, İstanbul geneli hizmet veren Küçükler Yapı Dekorasyon; komple ev tadilatı, banyo, mutfak, boya, mantolama ve su yalıtımı işlerinde 20 yıllık tecrübe."
         />
-        <link rel="canonical" href="https://asaf-yapi.lovable.app/" />
-        <meta property="og:url" content="https://asaf-yapi.lovable.app/" />
+        <link rel="canonical" href="https://kucukleryapi.com.tr/" />
+<meta property="og:url" content="https://kucukleryapi.com.tr/" />
       </Helmet>
       <TopBar />
       <Navigation />

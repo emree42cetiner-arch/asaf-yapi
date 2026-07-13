@@ -9,7 +9,7 @@ import WhatsAppFloat from "@/components/WhatsAppFloat";
 import FAQ from "@/components/FAQ";
 import { getServiceBySlug, detailedServices } from "@/data/services";
 
-const SITE = "https://asaf-yapi.lovable.app";
+const SITE = "https://kucukleryapi.com.tr";
 
 const ServicePage = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -133,6 +133,45 @@ const ServicePage = () => {
             ))}
           </div>
         </section>
+
+                {/* Detailed SEO Content */}
+        {service.contentSections?.map((section, sectionIndex) => (
+          <section
+            key={section.title}
+            className={`section-padding ${
+              sectionIndex % 2 === 0 ? "bg-concrete" : "bg-background"
+            }`}
+          >
+            <div className="container-custom max-w-4xl">
+              <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-6">
+                {section.title}
+              </h2>
+
+              {section.paragraphs.map((paragraph, paragraphIndex) => (
+                <p
+                  key={paragraphIndex}
+                  className="text-base md:text-lg text-foreground/90 leading-relaxed mb-5"
+                >
+                  {paragraph}
+                </p>
+              ))}
+
+              {section.bullets && section.bullets.length > 0 && (
+                <ul className="space-y-3 mt-6">
+                  {section.bullets.map((bullet, bulletIndex) => (
+                    <li
+                      key={bulletIndex}
+                      className="flex items-start gap-3 text-foreground/90"
+                    >
+                      <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-1" />
+                      <span className="leading-relaxed">{bullet}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </section>
+        ))}
 
         {/* Process */}
         <section className="section-padding bg-concrete">

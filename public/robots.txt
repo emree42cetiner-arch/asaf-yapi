@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://asaf-yapi.lovable.app/sitemap.xml
+Sitemap: https://kucukleryapi.com.tr/sitemap.xml
