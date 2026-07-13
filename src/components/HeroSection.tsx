@@ -50,18 +50,20 @@ const HeroSection = () => {
 
           <motion.h1
             variants={fadeInUp}
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.75rem] font-bold text-white leading-[1.1] tracking-tight mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.5rem] font-semibold text-white leading-[1.15] tracking-tight mb-6"
           >
-            Fatih Merkezli İstanbul Yapı Dekorasyon ve{" "}
-            <span className="text-accent">Anahtar Teslim Tadilat</span>
+            İstanbul Yapı Dekorasyon
+            <br className="hidden sm:block" />
+            {" "}ve{" "}
+            <span className="text-accent">Tadilat Hizmetleri</span>
           </motion.h1>
 
           <motion.p
             variants={fadeInUp}
             className="text-base md:text-lg text-white/80 max-w-2xl mx-auto mb-10 leading-relaxed font-light"
           >
-            Ev, ofis, banyo, mutfak ve komple tadilat projelerinde keşiften teslimata kadar
-            profesyonel, garantili uygulama.
+            Fatih merkezli ekibimizle ev, ofis, banyo ve mutfak tadilatlarında
+            keşiften teslimata anahtar teslim, planlı ve garantili uygulama.
           </motion.p>
 
           <motion.div
