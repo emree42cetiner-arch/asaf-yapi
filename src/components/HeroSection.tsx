@@ -95,7 +95,7 @@ const HeroSection = () => {
           {/* Trust Bar */}
           <motion.div
             variants={fadeInUp}
-            className="flex flex-wrap justify-center gap-x-6 gap-y-3 pt-8 border-t border-white/10"
+            className="flex flex-wrap justify-center gap-x-6 gap-y-3 pt-6 md:pt-8 border-t border-white/10"
           >
             {trustPoints.map(({ icon: Icon, label }) => (
               <div key={label} className="flex items-center gap-2 text-white/75 text-xs md:text-sm">
