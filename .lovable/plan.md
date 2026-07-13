@@ -1,5 +1,5 @@
 
-# Asaf Yapı — SEO ve Dönüşüm Odaklı İyileştirme Planı
+# Küçükler Yapı — SEO ve Dönüşüm Odaklı İyileştirme Planı
 
 Mevcut tasarımı ve yapıyı koruyarak, siteyi Fatih/İstanbul merkezli güçlü bir yapı dekorasyon SEO sitesine dönüştürüyoruz. Fazlalık animasyonlar ve gereksiz kod eklenmeyecek.
 
