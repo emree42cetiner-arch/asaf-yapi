@@ -1,5 +1,6 @@
 import { motion, Variants } from "framer-motion";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import blogBuilding from "@/assets/blog-building.jpg";
 import blogSafety from "@/assets/blog-safety.jpg";
 import blogSustainable from "@/assets/blog-sustainable.jpg";
@@ -9,19 +10,22 @@ const blogPosts = [
     image: blogBuilding,
     title: "İstanbul'da Komple Ev Tadilatı Ne Kadar Sürer?",
     excerpt: "Daire büyüklüğü, yıkım miktarı ve malzeme seçimlerinin tadilat süresine etkisi ve gerçekçi bir planlama rehberi.",
-    date: "12 Ocak 2026"
+    date: "12 Ocak 2026",
+    slug: "istanbul-komple-ev-tadilati"
   },
   {
     image: blogSafety,
     title: "Fatih'te Banyo Tadilatı Yaptırırken Nelere Dikkat Edilmeli?",
     excerpt: "Su yalıtımı, tesisat yenileme, seramik ve vitrifiye seçiminde profesyonel bir sürecin olmazsa olmazları.",
-    date: "5 Ocak 2026"
+    date: "5 Ocak 2026",
+    slug: "fatih-banyo-tadilati-dikkat"
   },
   {
     image: blogSustainable,
     title: "Anahtar Teslim Tadilatta Doğru Firma Nasıl Seçilir?",
     excerpt: "Sözleşme, garanti, referanslar ve şeffaf fiyatlandırma — güvenilir bir yapı dekorasyon firmasında aramanız gerekenler.",
-    date: "28 Aralık 2025"
+    date: "28 Aralık 2025",
+    slug: "anahtar-teslim-tadilat-firma-secimi"
   }
 ];
 
@@ -93,13 +97,13 @@ const BlogSection = () => {
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   {post.excerpt}
                 </p>
-                <a
-                  href="#"
+                <Link
+                  to={`/blog/${post.slug}`}
                   className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:text-accent/80 transition-colors duration-200"
                 >
                   Devamını Oku
                   <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
-                </a>
+                </Link>
               </div>
             </motion.article>
           ))}

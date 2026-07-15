@@ -1,17 +1,17 @@
-import renovationImage from "@/assets/renovation-interior.jpg";
-import mechanicalImage from "@/assets/mechanical-installation.jpg";
-import blogBuilding from "@/assets/blog-building.jpg";
-import blogSustainable from "@/assets/blog-sustainable.jpg";
-import heroConstruction from "@/assets/hero-construction.jpg";
-import blogSafety from "@/assets/blog-safety.jpg";
+import kitchenImage from "@/assets/kitchen.webp";
+import doorImage from "@/assets/door.webp";
+import windowImage from "@/assets/window.webp";
+import railingImage from "@/assets/railing.webp";
+import balconyImage from "@/assets/balcony.webp";
+import lightingImage from "@/assets/lighting.webp";
 
 const images = [
-  { src: renovationImage, alt: "Modern iç mekan tadilat projesi — Fatih" },
-  { src: mechanicalImage, alt: "Mekanik tesisat uygulaması" },
-  { src: blogBuilding, alt: "Bina cephe yenileme çalışması" },
-  { src: blogSustainable, alt: "Sürdürülebilir tadilat projesi" },
-  { src: heroConstruction, alt: "İnşaat sahası — İstanbul" },
-  { src: blogSafety, alt: "İş güvenliği uygulaması" },
+  { src: kitchenImage, alt: "Profesyonel mutfak tadilat projesi" },
+  { src: doorImage, alt: "Kaliteli kapı ve giriş çalışması" },
+  { src: windowImage, alt: "Cam işleri ve pencereleme uygulaması" },
+  { src: railingImage, alt: "Korkuluk ve dekoratif metal işleri" },
+  { src: balconyImage, alt: "Balkon yenileme ve tasarımı" },
+  { src: lightingImage, alt: "Profesyonel aydınlatma kurulumu" },
 ];
 
 const ProjectGallery = () => {
